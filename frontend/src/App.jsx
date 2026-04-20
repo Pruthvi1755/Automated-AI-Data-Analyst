@@ -196,7 +196,7 @@ tr:hover td { background: rgba(255,255,255,0.02); }
 `;
 
 // ── API base ────────────────────────────────────────────────────────────────
-const API = "http://localhost:8000";
+const API = import.meta.env.VITE_API_URL || "http://localhost:8000";
 
 // ── PlotlyChart component ────────────────────────────────────────────────────
 function PlotlyChart({ data }) {
