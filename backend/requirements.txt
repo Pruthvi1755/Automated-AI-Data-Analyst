@@ -10,6 +10,6 @@ reportlab==4.2.2
 python-dotenv==1.0.1
 kaleido==0.2.1
 httpx>=0.25.0
-faiss-cpu>=1.7.4
+# faiss-cpu>=1.7.4 (Commented out mapping to save Render RAM)
 PyPDF2>=3.0.0
-sentence-transformers>=2.2.2
+# sentence-transformers>=2.2.2 (Commented out mapping to save Render RAM)
