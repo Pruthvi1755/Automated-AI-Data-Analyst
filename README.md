@@ -3,6 +3,7 @@
 A production-grade, full-stack AI data analysis system. Upload any CSV or XLSX dataset, ask questions in plain English, and get instant insights with charts and downloadable PDF reports.
 
 ---
+Live deployed app - https://automated-ai-data-analyst-three.vercel.app/
 
 ## 🏗 Architecture
 
